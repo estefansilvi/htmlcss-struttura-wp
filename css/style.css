@@ -7,13 +7,47 @@
 .conteiner {
   width: 1200px;
   height: 150px;
-  background: red;
+  background: black;
   margin: 0 auto;
 }
 
+header {
+  width: 100%;
+  height: 100px;
+  background: red;
+}
+
+footer {
+  width: :100%;
+  height: 100px;
+  background: lightblue;
+}
 
 .clearfix::after {
   content:"";
   display: table;
   clear: both;
+}
+
+.box1 {
+  width: 25%;
+  height: 200px;
+  background: lightgreen;
+}
+
+.box2 {
+  width: 50%;
+  height: 500px;
+  background: yellow;
+}
+
+.box3 {
+  width: 25%;
+  height: 200px;
+  background: lightgreen;
+}
+
+/* utility class*/
+.float-l {
+  float: left;
 }
