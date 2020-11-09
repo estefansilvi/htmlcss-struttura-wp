@@ -7,20 +7,20 @@
 .conteiner {
   width: 1200px;
   height: 150px;
-  background: black;
   margin: 0 auto;
 }
 
 header {
   width: 100%;
-  height: 100px;
+  height: 200px;
   background: red;
+  margin-top:10px;
 }
 
 footer {
   width: :100%;
   height: 100px;
-  background: lightblue;
+  background: red;
 }
 
 .clearfix::after {
@@ -31,23 +31,42 @@ footer {
 
 .box1 {
   width: 25%;
-  height: 200px;
+  height: 350px;
+  margin-top:10px;
+  padding-right:15px;
+}
+
+.square-left div {
+  height: 350px;
   background: lightgreen;
 }
 
 .box2 {
   width: 50%;
-  height: 500px;
+  height: 600px;
   background: yellow;
+  margin: 10px 0 10px 0px;
 }
 
 .box3 {
   width: 25%;
   height: 200px;
-  background: lightgreen;
+  padding-left: 15px;
+  margin-top:10px;
 }
 
 /* utility class*/
 .float-l {
   float: left;
+}
+
+.square-content div:first-child {
+  height: 250px;
+  background: lightgreen;
+  margin-bottom: 10px;
+}
+
+.square-content div:last-child {
+  height: 250px;
+  background: lightgreen;
 }
