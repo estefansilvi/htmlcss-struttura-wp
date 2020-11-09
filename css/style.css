@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  width: 1200px;
+  height: 150px;
+  background: red;
+  margin: 0 auto;
+}
+
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
